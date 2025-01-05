@@ -8,7 +8,7 @@ import { JwtStrategy } from './jwt.strategy';
   imports: [
     PassportModule,
     JwtModule.register({
-      secret: 'babaissandiayeakazigfreak2002', // Utilisez une variable d'environnement en production
+      secret: process.env.JWT_SECRET || 'babaissandiayeakazigfreak2002', // Utilisez une variable d'environnement en production
       signOptions: { expiresIn: '1h' },
     }),
   ],
