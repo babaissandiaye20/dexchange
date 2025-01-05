@@ -114,7 +114,7 @@ http://localhost:3000/api
 
 1. Cloner le repository
 ```bash
-git clone [url-du-repo]
+git clone [https://github.com/babaissandiaye20/dexchange.git]
 ```
 
 2. Installer les dépendances
